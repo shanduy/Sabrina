@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <small>¡Hola, te saluda shan, creador de Sabrina! Muchas gracias por visitar este proyecto y utilizar a Sabrina. Si te ha sido de utilidad o te gusta el bot, te agradecería enormemente que nos apoyes dejando una estrella ⭐</small>
+  <small>¡Hola, te saluda shan, creador de Sabrina! Muchas gracias por visitar este proyecto y utilizar a Sabrina. Si te ha sido de utilidad o te gusta el bot, te agradecería enormemente que me apoyes dejando una estrella ⭐</small>
 </p>
 
 
