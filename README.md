@@ -28,7 +28,7 @@ Bot interactivo de WhatsApp desarrollado en Node.js utilizando la librería [@wh
 
 ## 🔗 Descarga del ejecutable (HidenCloud)
 
-[![Descargar index.js](https://img.shields.io/badge/Descargar_index.js-v1.0.0-2ba640?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/shanduy/sabrinaupdate/main/index.js)
+[![Descargar index.js](https://img.shields.io/badge/Descargar_index.js-v1.0.0-2ba640?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanduy/sabrinaupdate/releases/download/v1.0.0/index.js)
 
 ---
 
