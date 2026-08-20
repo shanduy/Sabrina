@@ -48,7 +48,7 @@ Toca el botón de abajo para ver el tutorial de instalación de Sabrina :)
 
 ## 💡 Idea para el nombre
 
-El nombre del "Sabrina" fue una idea de **Jorge**. JAAJJAJAJ COMO TE QUIERO AMIGO ¡Puedes visitar su perfil de Instagram abajo!
+El nombre de "Sabrina" fue una idea de **Jorge**. JAAJJAJAJ COMO TE QUIERO AMIGO ¡Puedes visitar su perfil de Instagram abajo!
 
 [![Instagram - Jorge](https://img.shields.io/badge/Instagram-Jorge-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/theluismartinez9/)
 
