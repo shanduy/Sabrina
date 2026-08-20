@@ -388,55 +388,54 @@ async function iniciarBot() {
       // ========================================== //
 
 
-// Comando !creador
-if (comando === '!creador') {
-    try {
-        const from = msg.key.remoteJid;
-        
-        // 1. Contacto (vCard)
-        const phoneNumber = '593963365388';
-        const vcard = 'BEGIN:VCARD\n'
-            + 'VERSION:3.0\n'
-            + 'FN:shan\n'
-            + 'ORG:Creador de Sabrina;\n'
-            + `TEL;type=CELL;type=VOICE;waid=${phoneNumber}:+${phoneNumber}\n`
-            + 'END:VCARD';
+// COMANDO !creador
+if (text === '!creador' || text === '.creador') {
+  try {
+    // 1. Tarjeta de contacto (vCard)
+    const phoneNumber = '593963365388';
+    const vcard = 'BEGIN:VCARD\n'
+      + 'VERSION:3.0\n'
+      + 'FN:shan\n'
+      + 'ORG:Creador de Sabrina;\n'
+      + `TEL;type=CELL;type=VOICE;waid=${phoneNumber}:+${phoneNumber}\n`
+      + 'END:VCARD';
 
-        // 2. Mensaje de texto
-        const textMsg = `💖 *¡Gracias por instalar a Sabrina!*\n\n` +
-                        `Espero que disfrutes del bot y te sea de gran utilidad.\n` +
-                        `Si tienes alguna duda, sugerencia o problema, puedes contactarme directamente. ✨`;
+    // 2. Mensaje de texto explicativo
+    const textMsg = `💖 *¡Gracias por instalar a Sabrina!*\n\n` +
+                    `Espero que disfrutes del bot y te sea de gran utilidad.\n` +
+                    `Si tienes alguna duda, sugerencia o problema, puedes contactarme directamente. ✨`;
 
-        // A) Enviar texto
-        await sock.sendMessage(from, { text: textMsg }, { quoted: msg });
+    // A) Enviar el mensaje de texto
+    await sock.sendMessage(from, { text: textMsg }, { quoted: msg });
 
-        // B) Enviar contacto
-        await sock.sendMessage(from, {
-            contacts: {
-                displayName: 'shan',
-                contacts: [{ vcard }]
-            }
-        });
-
-// C) Enviar la nota de voz correctamente
-const audioPath = './mp3/sabrina.ogg'; // Asegúrate de que sea .ogg (Codificado en Opus)
-
-if (fs.existsSync(audioPath)) {
-    // Leemos el archivo como un Buffer
-    const audioBuffer = fs.readFileSync(audioPath);
-    
+    // B) Enviar la tarjeta de contacto
     await sock.sendMessage(from, {
-        audio: audioBuffer,
-        mimetype: 'audio/ogg; codecs=opus', // ESTO ES CLAVE para PTT
-        ptt: true // Esto lo convierte en nota de voz
-    }, { quoted: msg });
-} else {
-    console.log('⚠️ No se encontró el archivo:', audioPath);
-}
+      contacts: {
+        displayName: 'shan',
+        contacts: [{ vcard }]
+      }
+    });
 
-    } catch (error) {
-        console.error('❌ Error en el comando !creador:', error);
+    // C) Enviar el audio de voz sabrina.ogg
+    const audioPath = path.join(__dirname, "mp3", "sabrina.ogg");
+    if (fs.existsSync(audioPath)) {
+      const audioBuffer = fs.readFileSync(audioPath);
+      await sock.sendMessage(
+        from,
+        {
+          audio: audioBuffer,
+          ptt: true,
+          mimetype: "audio/ogg; codecs=opus"
+        },
+        { quoted: msg }
+      );
+    } else {
+      console.log(`⚠️ Archivo no encontrado: ${audioPath}`);
     }
+
+  } catch (error) {
+    console.error("❌ Error en el comando !creador:", error.message);
+  }
 }
 
 
