@@ -2379,41 +2379,43 @@ if (body === '!canal' || body === '!updates') {
         }
       }
 
-      // RESPUESTA CON AUDIOS DE VOZ
-      const sonidos = {
-                'porno': 'ney.ogg',
-                'peruano': 'gaspip.ogg',
-                'boliviano': 'gaspib.ogg',
-                ':v': 'viejo1.ogg',
-                'god': 'sombare13.ogg',
-                'good': 'sombare14.ogg',
-                'vamoo': 'vamo.ogg',
-                'pasen': 'maau2.ogg',
-                'la nueva': 'mamut.ogg',
-                'responde': 'hola.ogg',
-                'respondeme': 'hola.ogg',
-                'mil': 'mil.ogg',
-                'fernan': 'fernan.ogg'
-            };
+ // RESPUESTA CON AUDIOS DE VOZ
+const sonidos = {
+  'porno': 'ney.ogg',
+  'peruano': 'gaspip.ogg',
+  'boliviano': 'gaspib.ogg',
+  ':v': 'viejo1.ogg',
+  'god': 'sombare13.ogg',
+  'good': 'sombare14.ogg',
+  'vamoo': 'vamo.ogg',
+  'pasen': 'maau2.ogg',
+  'la nueva': 'mamut.ogg',
+  'responde': 'hola.ogg',
+  'respondeme': 'hola.ogg',
+  'mil': 'mil.ogg',
+  'fernan': 'fernan.ogg'
+};
 
-      if (sonidos[text] && audiosActivados) {
-        try {
-          const nombreArchivo = sonidos[text];
-          const audioPath = path.join(__dirname, "mp3", nombreArchivo);
+if (sonidos[text] && audiosActivados) {
+  try {
+    const nombreArchivo = sonidos[text];
+    const audioPath = path.join(__dirname, "mp3", nombreArchivo);
 
-          if (fs.existsSync(audioPath)) {
+    if (fs.existsSync(audioPath)) {
             const audioBuffer = fs.readFileSync(audioPath);
             await sock.sendMessage(
               from,
               {
                 audio: audioBuffer,
                 ptt: true,
-                mimetype: "audio/mp4",
+                mimetype: "audio/ogg; codecs=opus",
               },
-              { quoted: msg },
+              { quoted: msg }
             );
 
             console.log(`✅ Audio enviado citando mensaje: ${nombreArchivo}`);
+          } else {
+            console.log(`⚠️ Archivo no encontrado: ${audioPath}`);
           }
         } catch (error) {
           console.error("❌ Error al enviar audio:", error.message);
@@ -2425,9 +2427,9 @@ if (body === '!canal' || body === '!updates') {
   });
 }
 
-// ==========================================
+// ===================================
 // FIN DE AUDIOS
-// ==========================================
+// ===================================
 
 // INICIA EL BOT Y ACA TERMINA TODA LA PROGRAMACION NO BORRAR ESTA LINEA
 iniciarBot();
