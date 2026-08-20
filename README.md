@@ -38,7 +38,7 @@
 
 Toca el botón de abajo para descargar directamente el archivo `index.js`:
 
-[![Descargar index.js v1.0](https://img.shields.io/badge/Descargar-index.js_v1.0-2b3137?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanduy/sabrinaupdate/releases/download/v1.0/index.js)
+[![Descargar index.js v1.1](https://img.shields.io/badge/Descargar-index.js_v1.1-2b3137?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanduy/sabrinaupdate/releases/tag/v1.1/index.js)
 
 ## 🔗 Tutorial (Youtube)
 
