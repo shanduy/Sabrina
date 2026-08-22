@@ -2,9 +2,9 @@
   "name": "sabrinabot",
   "version": "1.0.0",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "sabrina.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node sabrina.js"
   },
   "keywords": [],
   "author": "shan",
