@@ -1,5 +1,5 @@
 {
-  "name": "sabrinabot",
+  "name": "sabrina",
   "version": "1.0.0",
   "type": "commonjs",
   "main": "sabrina.js",
@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "shan",
   "license": "ISC",
-  "description": "SabrinaBot para WhatsApp",
+  "description": "Sabrina bot para WhatsApp",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.12",
     "axios": "^1.19.0",
@@ -22,15 +22,10 @@
     "qrcode-terminal": "^0.12.0",
     "readline-sync": "^1.4.10",
     "sharp": "^0.33.5",
-    "wa-sticker-formatter": "^4.4.4",
+    "stickers-formatter": "^1.0.0",
     "yt-search": "^2.13.1"
   },
   "devDependencies": {
     "javascript-obfuscator": "^5.5.0"
-  },
-  "overrides": {
-    "wa-sticker-formatter": {
-      "sharp": "$sharp"
-    }
   }
 }
