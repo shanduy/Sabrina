@@ -44,7 +44,7 @@ Toca el botón de abajo para descargar directamente el archivo `index.js`:
 
 Toca el botón de abajo para ver el tutorial de instalación de Sabrina :)
 
-[![Ver Tutorial en YouTube](https://img.shields.io/badge/Ver_Tutorial-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=TU_ID_DE_VIDEO)
+[![Ver Tutorial en YouTube](https://img.shields.io/badge/Ver_Tutorial-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=vjPCZNuXsTw)
 
 ## 💡 Idea del nombre
 
