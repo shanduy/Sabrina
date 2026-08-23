@@ -42,9 +42,9 @@ Toca el botón de abajo para descargar directamente el archivo `index.js`:
 
 [![Descargar index.js v1.1](https://img.shields.io/badge/Descargar-index.js_v1.1-2b3137?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanduy/sabrinaupdate/releases/download/v1.1/index.js)
 
-## 🔗 Tutorial (Youtube)
+## 🔗 Tutorial HidenCloud (Youtube)
 
-Toca el botón de abajo para ver el tutorial de instalación de Sabrina :)
+Toca el botón de abajo para ver el tutorial de instalación de Sabrina, donde tendras al bot funcioando 24/7 :)
 
 [![Ver Tutorial en YouTube](https://img.shields.io/badge/Ver_Tutorial-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=vjPCZNuXsTw)
 
@@ -64,7 +64,26 @@ El nombre de "Sabrina" fue una idea de **Jorge**. JAAJJAJAJ COMO TE QUIERO AMIGO
 
 > ⚠️ **Nota:** Este es un número únicamente de prueba (*Demo*). Sabrina no se une a grupos y está habilitada solo para chats individuales con el fin de probar sus funciones y comandos.
 
+---
 
+## Instalación en Termux
+
+Ejecuta el siguiente comando para instalar las dependencias, clonar e iniciar el bot:
+
+```bash
+cd ~ && rm -rf Sabrina && pkg update -y && pkg upgrade -y && pkg install git nodejs-lts ffmpeg python build-essential libvips -y && termux-setup-storage -y && termux-wake-lock && git clone https://github.com/shanduy/Sabrina.git && cd Sabrina && npm install sharp @img/sharp-wasm32 qrcode --legacy-peer-deps && npm install --legacy-peer-deps && npm start
+```
+
+Ejecuta este comando:
+
+```bash
+npm start
+```
+
+Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos o QR. Para una mayor rapidez, elige la opción 1, copia el código y pégalo en vincular por número de teléfono.
+
+
+---
 
 ## ✨ Funciones de Sabrina
 
@@ -79,3 +98,6 @@ El nombre de "Sabrina" fue una idea de **Jorge**. JAAJJAJAJ COMO TE QUIERO AMIGO
 * 🔞 NSFW (+18)
 * 🎲 Casino
 * 👾 Juegos
+
+
+---
