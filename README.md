@@ -72,7 +72,7 @@ El nombre de "Sabrina" fue una idea de **Jorge**. JAAJJAJAJ COMO TE QUIERO AMIGO
 
 ---
 
-## 📱 Instalación en Termux
+## 📱 Instalación en Termux (ANDROID)
 
 Ejecuta el siguiente comando para instalar las dependencias, clonar e iniciar el bot:
 
