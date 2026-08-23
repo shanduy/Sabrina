@@ -66,7 +66,7 @@ El nombre de "Sabrina" fue una idea de **Jorge**. JAAJJAJAJ COMO TE QUIERO AMIGO
 
 ---
 
-## Instalación en Termux
+## 📱 Instalación en Termux
 
 Ejecuta el siguiente comando para instalar las dependencias, clonar e iniciar el bot:
 
@@ -74,13 +74,12 @@ Ejecuta el siguiente comando para instalar las dependencias, clonar e iniciar el
 cd ~ && rm -rf Sabrina && pkg update -y && pkg upgrade -y && pkg install git nodejs-lts ffmpeg python build-essential libvips -y && termux-setup-storage -y && termux-wake-lock && git clone https://github.com/shanduy/Sabrina.git && cd Sabrina && npm install sharp @img/sharp-wasm32 qrcode --legacy-peer-deps && npm install --legacy-peer-deps && npm start
 ```
 
-Ejecuta este comando:
-
-```bash
-npm start
-```
-
 Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos o QR. Para una mayor rapidez, elige la opción 1, copia el código y pégalo en vincular por número de teléfono.
+
+<img src="https://raw.githubusercontent.com/shanduy/sabrinaupdate/main/media/Vincular.jpeg" alt="Método de vinculación" width="100%">
+
+> ⚠️ **Nota importante:** Ejecutar el bot en Termux depende del rendimiento de tu teléfono y de la estabilidad de tu conexión a internet. A diferencia de un servidor como **HidenCloud**, Termux no garantiza un funcionamiento 24/7 sin interrupciones.
+
 
 
 ---
