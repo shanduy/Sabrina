@@ -91,7 +91,7 @@ Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos 
 ---
 
 
-## Instalación en Cloud / Shell
+## 🌐 Instalación en Cloud / Shell (GOOGLE)
 
 Ejecuta el siguiente comando para clonar e instalar las dependencias en la nube:
 
