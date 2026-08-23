@@ -36,6 +36,22 @@
 
 ---
 
+## ✨ Funciones de Sabrina
+
+* 🎨 Creación de stickers (imágenes y videos)
+* 🎵 Descarga de música MP3
+* 👑 Administración de grupos
+* 🔇 Mutear usuarios (Elimina los mensajes del usuario)
+* 📣 Mencionar a todos (Grupos)
+* 📴 Apagar bot
+* ⛔ Función de bot solo admins
+* ⬇️ Descarga de archivos de View Once (Ver una sola vez)
+* 🔞 NSFW (+18)
+* 🎲 Casino
+* 👾 Juegos
+
+---
+
 ## 🔗 Descarga del ejecutable (HidenCloud)
 
 Toca el botón de abajo para descargar directamente el archivo `index.js`:
@@ -115,24 +131,5 @@ Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos 
 | **HidenCloud** *(Servidor)* | • Funcionamiento **24/7 permanente**.<br>• No requiere mantener la PC o celular encendidos.<br>• Conexión estable y sin caídas por red local. | • Requiere configuración inicial en panel hosting. |
 | **Termux** *(Android)* | • Instalación directa en tu teléfono.<br>• 100% gratuito sin depender de servicios externos. | • Consumo de batería y recursos del móvil.<br>• Depende de la estabilidad de tu WiFi/datos.<br>• No es 24/7 (se apaga si el SO cierra el proceso). |
 | **Cloud / Shell** *(Terminal Web)* | • Ideal para pruebas rápidas sin instalar nada local.<br>• No consume recursos de tu hardware. | • Se apaga al cerrar la pestaña o la sesión.<br>• Límites de tiempo por inactividad. |
-
----
-
-
-
-## ✨ Funciones de Sabrina
-
-* 🎨 Creación de stickers (imágenes y videos)
-* 🎵 Descarga de música MP3
-* 👑 Administración de grupos
-* 🔇 Mutear usuarios (Elimina los mensajes del usuario)
-* 📣 Mencionar a todos (Grupos)
-* 📴 Apagar bot
-* ⛔ Función de bot solo admins
-* ⬇️ Descarga de archivos de View Once (Ver una sola vez)
-* 🔞 NSFW (+18)
-* 🎲 Casino
-* 👾 Juegos
-
 
 ---
