@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "shan",
   "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0 <23.0.0"
+  },
   "description": "Sabrina bot para WhatsApp",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.12",
