@@ -76,7 +76,9 @@ cd ~ && rm -rf Sabrina && pkg update -y && pkg upgrade -y && pkg install git nod
 
 Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos o QR. Para una mayor rapidez, elige la opción 1, copia el código y pégalo en vincular por número de teléfono.
 
-<img src="https://raw.githubusercontent.com/shanduy/sabrinaupdate/main/media/Vincular.jpeg" alt="Método de vinculación" width="100%">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shanduy/sabrinaupdate/main/media/Vincular.jpeg" alt="Método de vinculación" width="450">
+</p>
 
 > ⚠️ **Nota importante:** Ejecutar el bot en Termux depende del rendimiento de tu teléfono y de la estabilidad de tu conexión a internet. A diferencia de un servidor como **HidenCloud**, Termux no garantiza un funcionamiento 24/7 sin interrupciones.
 
