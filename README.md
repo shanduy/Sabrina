@@ -66,6 +66,12 @@ El nombre de "Sabrina" fue una idea de **Jorge**. JAAJJAJAJ COMO TE QUIERO AMIGO
 
 ---
 
+<div align="center">
+  <h1>ALTERNATIVAS PARA INSTALAR TU BOT</h1>
+</div>
+
+---
+
 ## 📱 Instalación en Termux
 
 Ejecuta el siguiente comando para instalar las dependencias, clonar e iniciar el bot:
@@ -82,9 +88,37 @@ Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos 
 
 > ⚠️ **Nota importante:** Ejecutar el bot en Termux depende del rendimiento de tu teléfono y de la estabilidad de tu conexión a internet. A diferencia de un servidor como **HidenCloud**, Termux no garantiza un funcionamiento 24/7 sin interrupciones.
 
+---
 
+
+## Instalación en Cloud / Shell
+
+Ejecuta el siguiente comando para clonar e instalar las dependencias en la nube:
+
+```bash
+cd ~ && rm -rf Sabrina && git clone [https://github.com/shanduy/Sabrina.git](https://github.com/shanduy/Sabrina.git) && cd Sabrina && npm install --legacy-peer-deps && npm start
+```
+Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos o QR. Para una mayor rapidez, elige la opción 1, copia el código y pégalo en vincular por número de teléfono.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shanduy/sabrinaupdate/main/media/Vincularshell.png" alt="Método de vinculación Shell" width="450">
+</p>
+
+>⚠️ Nota importante: Ten en cuenta que las sesiones gratuitas de Cloud / Shell suelen cerrarse al inactivar la pestaña o apagar la PC. Por lo que tendras que tener a tu PC encendida todo el tiempo. Para mantener el bot funcionando 24/7 de forma ininterrumpida, se recomienda alojarlo en un servidor como HidenCloud.
 
 ---
+
+## ⚖️ Comparativa de Plataformas
+
+| Plataforma | Ventajas | Desventajas |
+| :--- | :--- | :--- |
+| **HidenCloud** *(Servidor)* | • Funcionamiento **24/7 permanente**.<br>• No requiere mantener la PC o celular encendidos.<br>• Conexión estable y sin caídas por red local. | • Requiere configuración inicial en panel hosting. |
+| **Termux** *(Android)* | • Instalación directa en tu teléfono.<br>• 100% gratuito sin depender de servicios externos. | • Consumo de batería y recursos del móvil.<br>• Depende de la estabilidad de tu WiFi/datos.<br>• No es 24/7 (se apaga si el SO cierra el proceso). |
+| **Cloud / Shell** *(Terminal Web)* | • Ideal para pruebas rápidas sin instalar nada local.<br>• No consume recursos de tu hardware. | • Se apaga al cerrar la pestaña o la sesión.<br>• Límites de tiempo por inactividad. |
+
+---
+
+
 
 ## ✨ Funciones de Sabrina
 
