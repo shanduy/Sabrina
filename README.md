@@ -90,6 +90,8 @@ El nombre de "Sabrina" fue una idea de **Jorge**. JAAJJAJAJ COMO TE QUIERO AMIGO
 
 ## 📱 Instalación en Termux (ANDROID)
 
+Descarga termux aqui abajo:
+
 [![Descargar en F-Droid](https://img.shields.io/badge/Descargar-F--Droid-3DDC84?style=for-the-badge&logo=f-droid&logoColor=white)](https://f-droid.org/en/packages/com.termux/) [![Descargar en Play Store](https://img.shields.io/badge/Descargar-Play_Store-412991?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.termux)
 
 Ejecuta el siguiente comando para instalar las dependencias, clonar e iniciar el bot:
