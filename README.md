@@ -33,6 +33,16 @@
   </a>
 </p>
 
+---
+
+
+> ### ⚠️ ADVERTENCIA SOBRE EL USO Y BANEOS
+> 
+> SE RECOMIENDA USAR WHATSAPP NORMAL Y NO EL BUSINESS.
+> * **Uso de WhatsApp Normal:** Se recomienda utilizar una cuenta de **WhatsApp Normal (Personal)**. Evita usar **WhatsApp Business**, ya que Meta aplica algoritmos de monitoreo comercial mucho más estrictos que aumentan drásticamente el riesgo de suspensión de la cuenta.
+> * **Límite de Uso Automatizado:** Aunque el bot incluye simulaciones de comportamiento humano (delays de lectura y estados de escritura/grabación), el uso masivo o no regulado de spam, enlaces sospechosos o comandos en un volumen extremo puede derivar en un baneo permanente.
+> * **Responsabilidad:** Este proyecto fue creado exclusivamente con fines educativos y de entretenimiento. El desarrollador **NO** se hace responsable por el mal uso, la suspensión o el baneo de cuentas de WhatsApp asociadas a este bot.
+
 
 ---
 
