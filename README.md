@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.instagram.com/ca_gada/">
+  <a href="https://www.instagram.com/_miniondearena_/">
     <img src="https://raw.githubusercontent.com/shanduy/sabrinaupdate/main/media/sabrina.jpeg" alt="Arte de Sabrina" width="500" height="281">
   </a>
 </p>
