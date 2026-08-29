@@ -93,7 +93,7 @@ El nombre de "Sabrina" fue una idea de **Jorge**. JAAJJAJAJ COMO TE QUIERO AMIGO
 Ejecuta el siguiente comando para instalar las dependencias, clonar e iniciar el bot:
 
 ```bash
-cd ~ && rm -rf Sabrina && pkg update -y && pkg upgrade -y && pkg install git nodejs-lts ffmpeg python build-essential libvips -y && termux-setup-storage -y && termux-wake-lock && git clone https://github.com/shanduy/Sabrina.git && cd Sabrina && npm install sharp @img/sharp-wasm32 qrcode --legacy-peer-deps && npm install --legacy-peer-deps && npm start
+cd ~ && rm -rf Sabrina && pkg update -y && pkg upgrade -y && pkg install git nodejs-lts ffmpeg -y && termux-setup-storage -y && termux-wake-lock && git clone https://github.com/shanduy/Sabrina.git && cd Sabrina && npm install --legacy-peer-deps && npm start
 ```
 
 Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos o QR. Para una mayor rapidez, elige la opción 1, copia el código y pégalo en vincular por número de teléfono.
@@ -101,6 +101,26 @@ Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos 
 <p align="center">
   <img src="https://raw.githubusercontent.com/shanduy/sabrinaupdate/main/media/Vincular.jpeg" alt="Método de vinculación" width="450">
 </p>
+
+---
+
+### 🔋 Configuración para ejecución 24/7 en Android (Termux)
+
+> [!IMPORTANTE]
+> Para evitar que el sistema operativo suspenda el proceso del bot en segundo plano al apagar la pantalla, ajusta el ahorro de batería:
+
+* **Paso 1:** Mantén presionado el icono de la app **Termux** y entra en **Información de la app**.
+* **Paso 2:** Busca la sección **Ahorro de batería** (o *Optimización de batería*).
+* **Paso 3:** Selecciona la opción **Sin restricciones** (*Unrestricted*).
+* **Paso 4:** Recuerda ejecutar `termux-wake-lock` dentro de Termux para mantener despierto el procesador.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shanduy/sabrinaupdate/main/media/recomendacion.jpg" alt="Método de vinculación" width="450">
+</p>
+
+
+---
+
 
 > ⚠️ **Nota importante:** Ejecutar el bot en Termux depende del rendimiento de tu teléfono y de la estabilidad de tu conexión a internet. A diferencia de un servidor como **HidenCloud**, Termux no garantiza un funcionamiento 24/7 sin interrupciones.
 
