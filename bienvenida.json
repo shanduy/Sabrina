@@ -1,0 +1,38 @@
+{
+  "120363182267293868@g.us": {
+    "welcome": false,
+    "goodbye": false,
+    "welcomeMsg": "¡Hola @user! Te damos la bienvenida a *@grupo*. 👋\n\nNúmero de miembro: *@miembros*",
+    "goodbyeMsg": "👋 *@user* ha abandonado *@grupo*. Ahora somos *@miembros* miembros."
+  },
+  "120363429172171870@g.us": {
+    "welcome": true,
+    "goodbye": true,
+    "welcomeMsg": "¡Hola @user! Te damos la bienvenida a *@grupo*. 👋\n\nNúmero de miembro: *@miembros*",
+    "goodbyeMsg": "👋 *@user* ha abandonado *@grupo*. Ahora somos *@miembros* miembros."
+  },
+  "120363427686308448@g.us": {
+    "welcome": false,
+    "goodbye": false,
+    "welcomeMsg": "¡Hola @user! Te damos la bienvenida a *@grupo*. 👋\n\nNúmero de miembro: *@miembros*",
+    "goodbyeMsg": "👋 *@user* ha abandonado *@grupo*. Ahora somos *@miembros* miembros."
+  },
+  "120363429583195569@g.us": {
+    "welcome": false,
+    "goodbye": false,
+    "welcomeMsg": "¡Hola @user! Te damos la bienvenida a *@grupo*. 👋\n\nNúmero de miembro: *@miembros*",
+    "goodbyeMsg": "👋 *@user* ha abandonado *@grupo*. Ahora somos *@miembros* miembros."
+  },
+  "120363411706917364@g.us": {
+    "welcome": false,
+    "goodbye": false,
+    "welcomeMsg": "¡Hola @user! Te damos la bienvenida a *@grupo*. 👋\n\nNúmero de miembro: *@miembros*",
+    "goodbyeMsg": "👋 *@user* ha abandonado *@grupo*. Ahora somos *@miembros* miembros."
+  },
+  "120363412614419796@g.us": {
+    "welcome": false,
+    "goodbye": false,
+    "welcomeMsg": "¡Hola @user! Te damos la bienvenida a *@grupo*. 👋\n\nNúmero de miembro: *@miembros*",
+    "goodbyeMsg": "👋 *@user* ha abandonado *@grupo*. Ahora somos *@miembros* miembros."
+  }
+}
