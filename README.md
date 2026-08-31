@@ -82,16 +82,6 @@ El nombre de "Sabrina" fue una idea de **Jorge**. JAAJJAJAJ COMO TE QUIERO AMIGO
 
 ---
 
-## 🧪 Probar a Sabrina
-
-¿Quieres probar a **Sabrina** en acción antes de instalarla? Toca el botón de abajo. 
-
-[![Probar SabrinaBot en WhatsApp](https://img.shields.io/badge/Probar_Demo-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/593983111003?text=!menu)
-
-> ⚠️ **Nota:** Este es un número únicamente de prueba (*Demo*). Sabrina no se une a grupos y está habilitada solo para chats individuales con el fin de probar sus funciones y comandos.
-
----
-
 <div align="center">
   <h1>ALTERNATIVAS PARA INSTALAR TU BOT</h1>
 </div>
