@@ -1,3 +1,16 @@
-node_modules
+# Dependencias y compilación
+node_modules/
 build.js
-//archivos que no se deben de subir
+
+# Sesión de WhatsApp (Baileys)
+auth_info_baileys/
+*.json.data
+
+# Archivos de base de datos local y configuración dinámica
+database.json
+config.json
+bienvenida.json
+
+# Registros de errores y logs
+*.log
+npm-debug.log*
