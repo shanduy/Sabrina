@@ -67,7 +67,7 @@
 
 ## 🔗 Descarga del ejecutable (HidenCloud)
 
-Toca el botón de abajo para descargar directamente el archivo `index.js`:
+Toca el botón de abajo para descargar directamente el archivo `index.js` este archivo es unicamente para subirlo a HidenCloud, es un instalador y actualizador.
 
 [![Descargar index.js v3.0](https://img.shields.io/badge/Descargar-index.js_v3.0-2b3137?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanduy/sabrinaupdate/releases/download/v3.0/index.js)
 
