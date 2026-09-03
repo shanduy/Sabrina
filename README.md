@@ -69,7 +69,7 @@
 
 Toca el botón de abajo para descargar directamente el archivo `index.js`:
 
-[![Descargar index.js v1.1](https://img.shields.io/badge/Descargar-index.js_v1.1-2b3137?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanduy/sabrinaupdate/releases/download/v1.1/index.js)
+[![Descargar index.js v3.0](https://img.shields.io/badge/Descargar-index.js_v3.0-2b3137?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanduy/sabrinaupdate/releases/download/v3.0/index.js)
 
 ## 🔗 Tutorial HidenCloud (Youtube)
 
