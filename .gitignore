@@ -1,10 +1,14 @@
 # Dependencias y compilación
 node_modules/
 build.js
+dist/
 
 # Sesión de WhatsApp (Baileys)
-auth_info_baileys/
+baileys_auth/
 *.json.data
+
+# Archivos temporales de descarga y multimedia
+temp/
 
 # Archivos de base de datos local y configuración dinámica
 database.json

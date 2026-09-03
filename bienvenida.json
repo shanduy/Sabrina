@@ -1,8 +1,0 @@
-{
-  "1234567890@g.us": {
-    "welcome": true,
-    "goodbye": true,
-    "welcomeMsg": "¡Hola @user! Te damos la bienvenida a *@grupo*. 👋\n\nNúmero de miembro: *@miembros*",
-    "goodbyeMsg": "👋 *@user* ha abandonado *@grupo*. Ahora somos *@miembros* miembros."
-  }
-}
