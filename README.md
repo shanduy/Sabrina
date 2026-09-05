@@ -110,13 +110,13 @@ Descarga termux aqui abajo:
 Ejecuta el siguiente comando para instalar las dependencias, clonar e iniciar el bot:
 
 ```bash
-cd ~ && rm -rf Sabrina && pkg update -y && pkg upgrade -y && pkg install git nodejs-lts ffmpeg -y && termux-setup-storage -y && termux-wake-lock && git clone https://github.com/shanduy/Sabrina.git && cd Sabrina && npm install --legacy-peer-deps && npm start
+pkg update && pkg upgrade -y && pkg install git nodejs-lts ffmpeg python make clang curl -y && pip install --upgrade yt-dlp && git clone https://github.com/shanduy/Sabrina.git && cd Sabrina && curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o yt-dlp && chmod +x yt-dlp && npm install --ignore-scripts && npm start
 ```
 
 Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos o QR. Para una mayor rapidez, elige la opción 1, copia el código y pégalo en vincular por número de teléfono.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shanduy/sabrinaupdate/main/media/Vincular.jpeg" alt="Método de vinculación" width="450">
+  <img src="https://raw.githubusercontent.com/shanduy/sabrinaupdate/blob/main/media/termux.jpg" alt="Método de vinculación" width="450">
 </p>
 
 ---
