@@ -49,6 +49,15 @@
 
 ---
 
+## 🍪 Estado de Cookies de YouTube (!mp3)
+
+![Estado](https://img.shields.io/badge/COOCKIES-FUNCIONANDO-black?style=for-the-badge&logo=youtube)
+![Última Actualización](https://img.shields.io/badge/Última_Actualización-05_SEP_2026-blue?style=for-the-badge&logo=clock)
+
+> ⚠️ Si las descargas fallan, actualiza tu bot para tener las coockies mas recientes en tu carpeta.
+
+---
+
 ## ✨ Funciones de Sabrina
 
 * 🎨 Creación de stickers (imágenes y videos)
@@ -114,7 +123,7 @@ Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos 
 
 ### 🔋 Configuración para ejecución 24/7 en Android (Termux)
 
-> [!IMPORTANTE]
+> [IMPORTANTE]
 > Para evitar que el sistema operativo suspenda el proceso del bot en segundo plano al apagar la pantalla, ajusta el ahorro de batería:
 
 * **Paso 1:** Mantén presionado el icono de la app **Termux** y entra en **Información de la app**.
