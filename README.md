@@ -121,6 +121,18 @@ Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos 
 
 ---
 
+
+## 🔄 Actualización Rápida (Termux)
+
+Si realizaste cambios en el repositorio y quieres actualizar la versión local en Termux e iniciar el bot inmediatamente, ejecuta el siguiente comando en la terminal:
+
+```bash
+cd ~/Sabrina && git pull && npm install --ignore-scripts && npm start
+```
+
+---
+
+
 ### 🔋 Configuración para ejecución 24/7 en Android (Termux)
 
 > [IMPORTANTE]
