@@ -113,7 +113,7 @@ Ejecuta el siguiente comando para instalar las dependencias, clonar e iniciar el
 pkg update && pkg upgrade -y && pkg install git nodejs-lts ffmpeg python make clang curl -y && pip install --upgrade yt-dlp && git clone https://github.com/shanduy/Sabrina.git && cd Sabrina && curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o yt-dlp && chmod +x yt-dlp && npm install --ignore-scripts && npm start
 ```
 
-Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos o QR. Para una mayor rapidez, elige la opción 1, copia el código y pégalo en vincular por número de teléfono.
+Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos o QR. Para una mayor rapidez, elige la opción 1, sigue los pasos que te dice en termux y copia el código y pégalo en vincular por número de teléfono en tu whatsapp.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/shanduy/sabrinaupdate/main/media/termux.jpg" alt="Método de vinculación" width="450">
