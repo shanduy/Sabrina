@@ -60,8 +60,9 @@
 * ⛔ Función de bot solo admins
 * ⬇️ Descarga de archivos de View Once (Ver una sola vez)
 * 🔞 NSFW (+18)
-* 🎲 Casino
-* 👾 Juegos
+* 🎲 Casino (Golpes estilo GTA Online, para tener optener mas dinero en tu cuenta)
+* 🏦 Economia (Sistema de transferencias entre usuarios para grupos de rolplay)
+* 👾 Juegos (Medidores de porcentajes y Medidor de Amor **SHIPS**)
 
 ---
 
