@@ -116,7 +116,7 @@ pkg update && pkg upgrade -y && pkg install git nodejs-lts ffmpeg python make cl
 Por último, se te desplegarán dos opciones: iniciar con código de 8 dígitos o QR. Para una mayor rapidez, elige la opción 1, copia el código y pégalo en vincular por número de teléfono.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shanduy/sabrinaupdate/blob/main/media/termux.jpg" alt="Método de vinculación" width="450">
+  <img src="https://raw.githubusercontent.com/shanduy/sabrinaupdate/main/media/termux.jpg" alt="Método de vinculación" width="450">
 </p>
 
 ---
