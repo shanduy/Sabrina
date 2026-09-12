@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@google/genai": "^1.0.0",
+    "@sasmeee/igdl": "github:sasmeee/igdl",
     "@whiskeysockets/baileys": "^7.0.0-rc14",
     "axios": "^1.20.0",
     "baileys-antiban": "github:kobie3717/baileys-antiban",
