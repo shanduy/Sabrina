@@ -52,7 +52,7 @@
 ## 🍪 Estado de Cookies de YouTube (!mp3)
 
 ![Estado](https://img.shields.io/badge/COOCKIES-FUNCIONANDO-black?style=for-the-badge&logo=youtube)
-![Última Actualización](https://img.shields.io/badge/Última_Actualización-05_SEP_2026-blue?style=for-the-badge&logo=clock)
+![Última Actualización](https://img.shields.io/badge/Última_Actualización-13_SEP_2026-blue?style=for-the-badge&logo=clock)
 
 > ⚠️ Si las descargas fallan, actualiza tu bot para tener las coockies mas recientes en tu carpeta.
 
